@@ -22,7 +22,7 @@
   $.fn.clipboard = function (params) {
     if ((typeof params == 'object' && !params.length) || (typeof params == 'undefined')) {
       var settings = $.extend({
-        path: 'jquery.clipboard.swf',
+        path: '/packages/meteor-jquery-clipboard/jquery.clipboard.swf',
         copy: null,
         beforeCopy: null,
         afterCopy: null,
